@@ -14,7 +14,7 @@ void Dijkstra_Algo(int vertices,int edges,int source){
         for(auto it:graph[u.second]){
             if(dis[u.second]+it.second < dis[it.first]){
                 dis[it.first]=dis[u.second]+it.second;
-                Q.push({dis[u.second],u.first});
+                Q.push({dis[it.second],it.first});
             }
         }
     }
@@ -41,6 +41,7 @@ int main()
     Dijkstra_Algo(vertices,edges,0);
     return 0;
 }
+
 
 //Testcase-1
 
