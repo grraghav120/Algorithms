@@ -1,22 +1,28 @@
-#include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-vector<pair<int,int>> graph[10];
+int V = 1e5+1;
+vector<pair<int,int>> graph[10000];
+
 void Dijkstra_Algo(int vertices,int edges,int source){
     vector<int> dis(vertices,INT_MAX);
-    priority_queue< int,vector<int>,greater<int> > Q;
-    for(int i=0;i<vertices;i++) Q.push(i);
+    priority_queue< pair<int,int>,vector<pair<int,int>>,greater<pair<int,int>> > Q;
     dis[source]=0;
+    Q.push({dis[source],source});
     while(!Q.empty()){
-        int u=Q.top();
-        for(auto it:graph[u]){
-            if(dis[u]+it.second < dis[it.first]) dis[it.first]=dis[u]+it.second;
-        }
+        auto u=Q.top();
         Q.pop();
+        for(auto it:graph[u.second]){
+            if(dis[u.second]+it.second < dis[it.first]){
+                dis[it.first]=dis[u.second]+it.second;
+                Q.push({dis[u.second],u.first});
+            }
+        }
     }
     for(auto it:dis){
         cout<<it<<" ";
     }
+    
+    // Print Adjacency List
     // for(int i=0;i<vertices;i++){
     //     for(auto it:graph[i]) cout<<it.first<<" "<<it.second<<" ";
     //     cout<<'\n';
