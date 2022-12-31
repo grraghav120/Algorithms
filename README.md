@@ -1,5 +1,7 @@
 # Bellman_Ford_Algo
+- <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Bellman_Ford_Algorithm.cpp">Bellman_Ford_Algo</a>
 # Dijkstra_Algo
+- <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Dijkstra_Algo.cpp">Dijkstra_Algorithm</a>
 # LevelOrderTraversal
 # Prim's_Algo
 # Boyer-Moore Algorithm
@@ -10,5 +12,12 @@
 - <a href="https://github.com/grraghav120/Algorithms/blob/5fa65e16e94faa14f5895a4d5097395f6958423b/Knuth_Morris_Pratt_Algo.cpp">Knuth_Morris_Pratt_Algo</a>
 # Rabin_Karp_Algorithm
 - <a href="https://github.com/grraghav120/Algorithms/blob/88bc779e59f30f1df1271cecfb9afc106085af33/Rabin_Karp_Algo.cpp">Rabin_Karp_Algo</a>
-
+# NQueen Problem
+- <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Nqueen_Problem.cpp">NQueen Problem</a>
+# Job Sequencing Problem
+<a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Job%20Sequencing%20Problem.cpp">Job Sequencing Problem</a>
+# Kadane's_Algorithm
+<a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Kadane's_Algorithm.cpp">Kadane's_Algorithm</a>
+# Activity_selection_problem
+<a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Activity_selection_problem.cpp">Activity_selection_problem</a>
 # Many more...
