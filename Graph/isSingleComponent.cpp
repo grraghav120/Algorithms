@@ -31,6 +31,7 @@ int main()
     }
     printAdjacencyList(vertices);
     for(int i=0;i<vertices;i++) if(!vis[i]){ dfs(i); cmp++; }
+    cout<<cmp<<'\n'; //Optional Bro
     if(cmp==1) cout<<"Single Connected Component"<<'\n';
     else cout<<"Not a Single Connected Component"<<'\n';
     return 0;
