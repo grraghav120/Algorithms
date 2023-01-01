@@ -3,6 +3,8 @@
 # Dijkstra_Algo
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Dijkstra_Algo.cpp">Dijkstra_Algorithm</a>
 # LevelOrderTraversal
+# DFS in Graph
+- <a href="https://github.com/grraghav120/Algorithms/blob/1becf3edf30ee037700685e64ab35e9ca1ddce4b/DFS.cpp">DFS</a>
 # Prim's_Algo
 # Boyer-Moore Algorithm
 - <a href="https://github.com/grraghav120/Algorithms/blob/80f4d68b1bfe609f54842af7ffc79a7dc9a501a3/boyer-moore-algo.cpp.cpp"> Boyer Moore Algo </a>
