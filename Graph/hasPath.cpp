@@ -46,3 +46,20 @@ int main()
     else cout<<"NO, there is no path exist"<<'\n';
     return 0;
 }
+
+
+
+//T1 
+// 7 7
+// 0 1
+// 0 3
+// 1 2
+// 2 3
+// 4 5
+// 5 6
+// 4 6
+// 4 6
+//Path exist
+
+// Logic :- start dfs from the src vertex and check wheather the destination is occur in dfs or not if occur then return true else return false .. !!!easy../////
+// Raghav Garg (grraghav120)
