@@ -3,17 +3,13 @@
 using namespace std;
 
 int func(int n,vector<vector<int>> &a){
-    long long int rowp=1,colp=1,i;
+    long long int rowp=1,colp=1,i,sum;
     long long int mid=n/2;
     for( i=0;i<n;i++){
         rowp*=a[mid][i];
-    }
-    // cout<<rowp<<'\n';
-    for( i=0;i<n;i++){
         colp*=a[i][mid];
     }
-    // cout<<colp<<'\n';
-    long long int sum=rowp+colp;
+    sum=rowp+colp;
     rowp=0;
     for(i=sum;i>0;i/=10){
         int mod=i%10;
