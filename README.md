@@ -10,6 +10,7 @@
 # KosaRaju Algorithm
 - <a href="https://github.com/grraghav120/Algorithms/blob/0e7c45ffabf6c69f23f7217414774bdccd796bf4/Graph/KosarajuAlgo.cpp">KosaRaju Algorithm</a>
 # Prim's_Algo
+- <a href="https://github.com/grraghav120/Algorithms/blob/main/Prim's_Algo.cpp">Prim's Algorithm</a>
 # Boyer-Moore Algorithm
 - <a href="https://github.com/grraghav120/Algorithms/blob/80f4d68b1bfe609f54842af7ffc79a7dc9a501a3/boyer-moore-algo.cpp.cpp"> Boyer Moore Algo </a>
 # Naive String Matching Algorithm
