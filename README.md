@@ -4,6 +4,8 @@
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Bellman_Ford_Algorithm.cpp">Bellman_Ford_Algo</a>
 # Dijkstra_Algo
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Dijkstra_Algo.cpp">Dijkstra_Algorithm</a>
+# Prim's_Algo
+- <a href="https://github.com/grraghav120/Algorithms/blob/main/Prim's_Algo.cpp">Prim's_Algorithm</a> 
 # LevelOrderTraversal
 # DFS in Graph
 - <a href="https://github.com/grraghav120/Algorithms/blob/1becf3edf30ee037700685e64ab35e9ca1ddce4b/DFS.cpp">DFS</a>
@@ -26,4 +28,5 @@
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Kadane's_Algorithm.cpp">Kadane's_Algorithm</a>
 # Activity_selection_problem
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Activity_selection_problem.cpp">Activity_selection_problem</a>
+
 # Many more...
