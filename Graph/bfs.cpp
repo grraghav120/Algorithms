@@ -2,7 +2,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void bfs(int node, vector<int> graph[], vector<bool>& vis)
+void bfs(int node, vector<int> graph[], vector<bool> &vis)
 {
     queue<int> q;
     q.push(node);
@@ -14,7 +14,7 @@ void bfs(int node, vector<int> graph[], vector<bool>& vis)
             continue;
         cout << curr_node << ' ';
         vis[curr_node] = 1;
-        
+
         for (int adj : graph[curr_node])
             if (!vis[adj])
                 q.push(adj);
