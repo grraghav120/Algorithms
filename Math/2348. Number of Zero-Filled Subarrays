@@ -1,0 +1,29 @@
+class Solution {
+public:
+    long long zeroFilledSubarray(vector<int>& nums) {
+        long long int n=nums.size(),len=0,k=0;
+        vector<long long> v;
+        for(int i=0;i<n;i++){
+            if(nums[i]==0) len++;
+            else{
+                if(len!=0){
+                    k=max(k,len);
+                    v.push_back(len);
+                    len=0;
+                }
+            }
+        }
+        k=max(k,len);
+        if(len!=0) v.push_back(len);
+        if(v.size()==0) return 0;
+        vector<long long> ans(k+1,1);
+        for(int i=2;i<=k;i++){
+            ans[i]=i+ans[i-1];
+        }
+        k=0;
+        for(auto it:v){
+            k+=ans[it];
+        }
+        return k;
+    }
+};
