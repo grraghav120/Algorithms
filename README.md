@@ -27,3 +27,12 @@
 # Activity_selection_problem
 - <a href="https://github.com/grraghav120/Algorithms/blob/eae97d3abfd5ee336f35944d2f0034795552e654/Activity_selection_problem.cpp">Activity_selection_problem</a>
 # Many more...
+the XOR and "Bitwise Operators " are also part of DSA
+swap two variables using XOR
+int a=4;
+int b=5;
+a=a^b;
+b=a^b;
+a=a^b;
+now the values of a and b will be changed
+a is now 5 and b is 4
