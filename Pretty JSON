@@ -1,0 +1,44 @@
+Pretty JSON:-
+Difficulty = Medium
+
+#include <bits/stdc++.h> 
+vector<string> prettyJSON(string &str) {
+    int n=str.size(),space=0;
+    vector<string> ans;
+    string s="";
+    for(int i=0;i<n;i++){
+        if(str[i]=='[' || str[i]=='{'){
+            if(s!=""){
+                string aa="";
+                for(int j=1;j<=space;j++) aa+="\t";
+                ans.push_back(aa+s);
+            }
+            string aa="";
+            for(int j=1;j<=space;j++) aa+="\t";
+            ans.push_back(aa+str[i]);
+            space++;
+            s="";
+        }
+        else if(str[i]==','){
+            s+=str[i];
+            string aa="";
+            for(int j=1;j<=space;j++) aa+="\t";
+            ans.push_back(aa+s);
+            s="";
+        }
+        else if(str[i]==']'|| str[i]=='}'){
+            if(s!=""){
+                string aa="";
+                for(int j=1;j<=space;j++) aa+="\t";
+                ans.push_back(aa+s);
+            }
+            space--;
+            s=str[i];
+        }
+        else s+=str[i];
+    }
+    ans.push_back(s);
+    return ans;
+    // Write your code here.
+}
+
